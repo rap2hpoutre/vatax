@@ -9,9 +9,9 @@ const USAGE: &'static str = "
 Vat calculator.
 
 Usage:
-  vat [-r] <value> [--rate=<rate>]
-  vat (-h | --help)
-  vat --version
+  vatax [-r] <value> [--rate=<rate>]
+  vatax (-h | --help)
+  vatax --version
 
 Options:
   -r                  Compute from value without tax to value with tax.
@@ -51,6 +51,6 @@ fn main() {
     } else {
         (value * rate, value)
     };
-    println!("Without tax {}\nWith tax    {}", format!("{:.*}", 2, wot), format!("{:.*}", 2, wt));      
+    println!("Without tax   {}\nWith tax      {}", format!("{:.*}", 2, wot), format!("{:.*}", 2, wt));      
            
 }
