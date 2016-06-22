@@ -1,6 +1,6 @@
 # vatax
 
-Useless vat calculator. Learning rust.
+Useless vat calculator. Do not use, use a calc please. I'm just learning rust.
 
 ## Usage
 ```
